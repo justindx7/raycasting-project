@@ -1,0 +1,18 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+#define NAME "raycaster"
+#define WINDOW_WIDTH 1280
+#define WINDOW_HEIGHT 720
+
+// MAP SIZE
+#define LEVEL_WIDTH 16
+#define LEVEL_HEIGHT 8
+
+#define BLOCK_HEIGHT (WINDOW_HEIGHT / LEVEL_HEIGHT)
+#define BLOCK_WIDTH (WINDOW_WIDTH / LEVEL_WIDTH)
+
+//RENDER
+#define FOV (M_PI / 2.f)
+
+#endif
